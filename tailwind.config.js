@@ -1,6 +1,7 @@
 module.exports = {
     purge: [
-        './index.tw.html'
+        './index.html',
+        './header.tw.html'
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
