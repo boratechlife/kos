@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "npx postcss ./src/tailwind.css  -o ./dist/styles.css -w"
+        "build": "npx postcss ./src/tailwind.css  -o ./dist/styles.css -w",
+        "custom:build": "npx postcss ./src/custom.css  -o ./dist/custom.css -w"
     },
     "keywords": [],
     "author": "",
